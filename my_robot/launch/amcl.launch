@@ -13,6 +13,19 @@
         <param name="initial_pose_x" value="-1.0"/>
         <param name="initial_pose_y" value="4.0"/>
         <param name="initial_pose_a" value="-1.57"/>
+        <!-- AMCL tuning -->
+        <!-- <param name="min_particles" value="10000"/>
+        <param name="max_particles" value="10000"/> -->
+        <!-- <param name="odom_alpha1" value="0.005"/>
+        <param name="odom_alpha2" value="0.005"/>
+        <param name="odom_alpha3" value="0.010"/>
+        <param name="odom_alpha4" value="0.005"/> -->
+        <param name="odom_alpha1" value="0.001"/>
+        <param name="odom_alpha2" value="0.001"/>
+        <param name="odom_alpha3" value="0.001"/>
+        <param name="odom_alpha4" value="0.001"/>
+
+
     </node>
     <!-- Move Base -->
     <node name="move_base" pkg="move_base" type="move_base" respawn="false" output="screen">

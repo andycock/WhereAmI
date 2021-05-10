@@ -109,7 +109,7 @@ Visualization Manager:
       Use Timestamp: false
       Value: true
     - Alpha: 1
-      Arrow Length: 0.300000012
+      Arrow Length: 0.100000001
       Axes Length: 0.300000012
       Axes Radius: 0.00999999978
       Class: rviz/PoseArray
@@ -178,7 +178,7 @@ Visualization Manager:
   Value: true
   Views:
     Current:
-      Angle: -0.0650000125
+      Angle: -0.315000027
       Class: rviz/TopDownOrtho
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.0599999987
@@ -188,11 +188,11 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.00999999978
-      Scale: 44.6765938
+      Scale: 53.2408676
       Target Frame: <Fixed Frame>
       Value: TopDownOrtho (rviz)
-      X: -2.02571511
-      Y: 3.51365852
+      X: -1.05606091
+      Y: 1.84755051
     Saved: ~
 Window Geometry:
   Displays:
@@ -210,5 +210,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1200
-  X: 717
-  Y: 26
+  X: 0
+  Y: 21
